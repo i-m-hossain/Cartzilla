@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.cartzilla-btn{
+   box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(254 105 106 / 90%);
+   background-color: #fe696a;
+   border-color: #fe696a;;
+   padding: 10px 22px;
+   border-radius: .3125rem;
+   color: #fff;
+}
+.cartzilla-btn:hover{
+    background-color: #fe3638;
+    border-color: #fe3638;
+}
+.hero-section{
+    margin-top: 70px;
+    padding:80px 0px;
+    background-image: url('assets/intro-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.normal-text{
+    font-size: 2rem;
+}
+.text-big{
+    font-weight: bold;
+}
+.opacity-80{
+    opacity: 0.8;
+}
+
+
+/* ------------Demos-------------- */
+.hover-icon{
+    display: none;
+}
+.image-parent>img:hover .hover-icon{
+    display: block;
+}
