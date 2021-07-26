@@ -3,7 +3,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color:black
+}
 /* navbar */
 .cartzilla-btn{
    box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(254 105 106 / 90%);
@@ -41,6 +44,19 @@ body{
 .hover-icon{
     display: none;
 }
-.image-parent>img:hover .hover-icon{
+.on-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+.image-parent:hover .hover-icon{
     display: block;
+}
+.demo-link:hover{
+    color: #fe3638;
+
 }
