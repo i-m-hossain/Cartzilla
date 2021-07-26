@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 a{
     text-decoration: none;
@@ -61,7 +61,11 @@ a{
 
 }
 
-/*  */
+/* =======Cartzill handheld toolbar========== */
 .cartzilla-text-success{
     color: #42d697
+}
+
+.handheld-bg{
+    background-color: #f6f9fc;
 }
