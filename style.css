@@ -69,3 +69,11 @@ a{
 .handheld-bg{
     background-color: #f6f9fc;
 }
+
+/* =============feature=================== */
+
+.feature-text{
+
+    font-size: .8125rem;
+    font-weight: 400;
+}
